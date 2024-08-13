@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.section {
+  height: 100vh; /* Full viewport height */
+}
+
+.full-height {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.email-text {
+  display: inline !important;
+}

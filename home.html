@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/logo.png" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>K5aidt Official Website - Home</title>
+    <style>
+      html,body {
+        overflow: hidden; /* Disable scrolling */
+      }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar fixed-top navbar-expand bg-body-tertiary">
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="navbar-nav">
+        <a class="nav-link" href="socials">Socials</a>
+        <a class="nav-link active fw-bold" aria-current="page" href="home">Home</a>
+        <a class="nav-link" href="portfolio">Portfolio</a>
+      </div>
+    </div>
+  </nav>  
+
+  <!-- First Section -->
+  <div id="first-section" class="section container d-flex flex-column justify-content-center align-items-center">
+    <h1 class="display-1">I'm Kasra !</h1>
+    <h1 class="display-6 fs-3 text-center">A video editor, technology enthusiast and high school student studying in mathematics and physics field. I was born in Abadan, Iran on August 7, 2007.</h1>
+    <i class="bi bi-chevron-down fs-1 mt-4" style="cursor: pointer;" onclick="scrollToSection('second-section')"></i>
+  </div>
+
+  <!-- Second Section -->
+  <div id="second-section" class="section container d-flex flex-column justify-content-center align-items-center">
+    <i class="bi bi-chevron-up fs-1 mb-4" style="cursor: pointer;" onclick="scrollToSection('first-section')"></i>
+    <h1 class="display-1">I'm Kasra !</h1>
+    <h1 class="display-6 fs-3 text-center">The ability to use my creativity to produce material for my clients is what I enjoy most about my job. Every project presents a fresh opportunity to face a new challenge, and I enjoy the challenge of creating visually stunning, engaging videos that attract audiences.</h1>
+    <i class="bi bi-chevron-down fs-1 mt-4" style="cursor: pointer;" onclick="scrollToSection('third-section')"></i>
+  </div>
+
+  <!-- Third Section -->
+  <div id="third-section" class="section container d-flex flex-column justify-content-center align-items-center">
+    <i class="bi bi-chevron-up fs-1 mb-4" style="cursor: pointer;" onclick="scrollToSection('second-section')"></i>
+    <h1 class="display-1">I'm Kasra !</h1>
+    <h1 class="display-6 fs-3 text-center">Despite my wide variety of editing abilities, I always prioritize satisfying and reaching the standards and expectations of the client.</h1>
+    <button type="button" class="btn btn-lg btn-outline-light mt-3" onclick="openPortfolioPage()">Portfolio</button>
+  </div>
+
+    <!-- js files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
