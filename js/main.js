@@ -1,11 +1,11 @@
 function openHomePage() {
-  window.location.href = 'home';
+  window.location.href = 'home.html';
 }
 function openPortfolioPage() {
-  window.location.href = 'portfolio';
+  window.location.href = 'portfolio.html';
 }
 function openSocialsPage() {
-  window.location.href = 'socials'
+  window.location.href = 'socials.html'
 }
 
 function scrollToSection(sectionId) {
